@@ -1,6 +1,6 @@
 import os
 
-def elf_calories():
+def food():
     directory_path = os.path.dirname(__file__)
     file_path = os.path.join(directory_path, "Input.txt")
     return open(file_path)
